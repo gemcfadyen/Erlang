@@ -30,6 +30,7 @@ Exercises used for learning Erlang
  * Remember to include the module name when invoking the function e.g. <code>moduleName:functionName(Argument).</code>
  * **Tip**: hitting _F9_ will recompile your file to pick up any changes you make.
  * 
+ 
 
 # Running through the shell #
 
@@ -37,3 +38,8 @@ Exercises used for learning Erlang
 * Compile using c(filename) where the filename is the module name eg: c(guards).
 * Run using module:function(input parameters) eg: guards:valid_date(12,2).
 
+# Viewing the messages sent to the shell
+* When running the methods in the file parallel, pass in the number you wish to perform the factorial on.
+* To view the time taken, call flush(). The time taken in seconds will be displayed.
+* To see the threads processing the observer tool can be used.  observer:start(). and navigate to the Load Chart tab.
+* etop:start() will also display the processes running.
